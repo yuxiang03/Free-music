@@ -1,8 +1,9 @@
 package com.example.Service;
 
-import com.example.Vo.Params.SearchParams;
+import com.example.Utils.RequestInfo;
 import com.example.Vo.Result;
+import org.springframework.transaction.annotation.Transactional;
 
 public interface SearchService {
-    Result search(SearchParams searchParams);
+    Result search(RequestInfo requestInfo);
 }

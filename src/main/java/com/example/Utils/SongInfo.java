@@ -1,8 +1,10 @@
 package com.example.Utils;
 
+import java.util.List;
+
 @lombok.Data
 public class SongInfo {
     private int code;
-    private String message;
-    private com.example.Utils.Data data;
+    private String error;
+    private List<Data> data;
 }

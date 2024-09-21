@@ -1,0 +1,12 @@
+server:
+  port: 8998
+spring:
+  application:
+    name: Free-music
+  datasource:
+    url: jdbc:mysql://${db.host}:3306/cokeData?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ${db.pw}
+  profiles:
+    active: local

@@ -1,9 +1,13 @@
 package com.example.Utils;
 
-import java.util.List;
-
 @lombok.Data
 public class Data {
-    private int total;
-    private List<com.example.Utils.ListInfo> list;
+    private String author;
+    private String link;
+    private String lrc;
+    private String pic;
+    private int songid;
+    private String title;
+    private String type;
+    private String url;
 }
